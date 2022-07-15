@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+    font-family: 'Rufina';
+    src: url("../font/Rufina/Rufina-Bold.ttf");
+    src: url("../font/Rufina/Rufina-Regular.ttf");
+}
+
+
+:root {
+    --primary-color: #ff817e;
+    --header-font: 'Roboto', sans-serif;
+    --header-text-color: #263a41;
+    --sub-text-color: #6c6c6f;
+    --white-color: rgb(255, 255, 255);
+    --border-color: #b1b4bb;
+    --procedure-border-color: rgba(0, 0, 0, 0.1);
+    --footer-bg-color: #fff9f8;
+    --title-color: #1e2528;
+    --procedure-btn-color: #30383b;
+    --border-appointment-color: #d4d3d3;
+    --btn-appointment-color: #212529;
+    --bg-menu-mobile: #fcf5ee;
+}
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    
+    margin: 0;
+    line-height: 2.7rem;
+    font-size: 1.5rem;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* CSS SWIPER */
+.swiper-button-prev {
+    display: none !important;
+}
+.swiper-button-next {
+    display: none !important;
+}
+.swiper-pagination-bullet {
+    background-color: var(--primary-color) !important;
+}

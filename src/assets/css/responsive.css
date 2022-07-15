@@ -1,0 +1,429 @@
+.hide-on-pc {
+    display: none;
+}
+
+/* --- HEADER --- */
+@media (max-width: 1440px) {}
+
+@media (max-width: 1024px) {
+    .banner {
+        background-size: 15% !important;
+    }
+
+    .banner-img img {
+        width: 50rem !important;
+    }
+
+    .body-treatment-item {
+        height: unset !important;
+    }
+    .about {
+        margin-top: 6rem !important;
+    }
+    .china-rose {
+        top: -2% !important;
+    }
+    .jasmin {
+        right: 1rem !important;
+    }
+
+    .post-item {
+        width: 30% !important;
+        justify-content: space-between;
+    }
+
+    .appointment-img {
+        display: none;
+    }
+
+    .appointment-form-wrap {
+        width: 100% !important;
+        margin: 0 auto !important;
+        padding: 3rem 0 !important;
+    }
+
+    .appointment-form {
+        max-width: 650px !important;
+    }
+
+    .post-item-img {
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 1.5rem !important;
+    }
+    .post-item-img img {
+        width: 100% !important;
+        height: auto;
+    }
+    .post-item-content-title {
+        font-size: 2rem !important;
+        margin-bottom: 1.2rem !important;
+    }
+    .post-item-content-description {
+        margin-bottom: 2rem !important;
+    }
+    .post-item-btn a {
+        margin-bottom: 0 !important;
+    }
+    .team-members {
+        justify-content: space-between;
+    }
+
+    .team-member {
+        width: 30% !important;
+
+    }
+    .team-info {
+        width: 100% !important;
+    }
+
+    .team-member img {
+        object-fit: cover;
+        overflow: hidden;
+        width: 100% !important;
+        display: block;
+        height: auto;
+    }
+    .map-container {
+        width: 100%;
+    }
+    .map-container img {
+        width: 100%;
+    }
+    .contact-input-text {
+        margin-left: 2rem !important;
+    }
+
+}
+@media (max-width: 1023px) {
+    .body-treatment {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    /*BANNER*/
+    .banner-img img {
+        width: 34rem !important;
+    }
+
+    .banner-content {
+        width: 70% !important;
+
+    }
+
+    .banner-content span:nth-child(2) {
+        font-weight: 300 !important;
+    }
+
+    /*ABOUT*/
+    .about {
+        margin-top: 3rem !important;
+        padding: 0 !important;
+    }
+    .china-rose {
+        left: 18% !important;
+        top: 0% !important;
+        display: none !important;
+    }
+
+    .about-description span {
+        padding: 0 !important;
+    }
+    .jasmin {
+        display: none;
+    }
+    /*TEAM*/
+    .team-info {
+        width: 100% !important;
+    }
+    .appointment-form {
+        width: 100% !important;
+        margin: 0 auto;
+    }
+    /*APPOINTMENT*/
+    .appointment-form-wrap {
+        width: 100% !important;
+        
+    }
+    /*CONTACT*/
+    .contact-input {
+        padding: 0 !important;
+    }
+    .contact-input-text {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+    .contact-information {
+        width: 100%;
+    }
+    .contact {
+        padding: 0 1.5rem;
+    }
+    /*Feature*/
+    .feature-container {
+        flex-direction: column;
+    }
+    .content {
+        width: 100% !important;
+    }
+    .feature-img {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .hide-on-pc {
+        display: block;
+    }
+    .banner-img {
+        display: none;
+    }
+    .primary-menu {
+        max-width: 0 !important;
+        display: none !important;
+    }
+
+    .header-container {
+        padding: 0 1.5rem;
+        position: relative;
+        justify-content: space-between;
+    }
+    .mobile-menu {
+        margin-right: 1.5rem ;
+    }
+    .mobile-menu-list {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: var(--bg-menu-mobile);
+        z-index: 1;
+        padding: 1.5rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .item-moblie {
+        padding: 1rem 1.5rem !important;
+        margin: 0 !important;
+    }
+
+
+    .banner {
+        padding: 1.5rem !important;
+        padding-top: 5rem !important;
+        background-size: 10% !important;
+    }
+
+    .banner-content {
+        width: 100% !important;
+    }
+
+    .banner-content span:nth-child(2) {
+        font-size: 4.4rem !important;
+        line-height: 5rem !important;
+        font-weight: 500 !important;
+    }
+
+    .banner-content span {
+        font-size: 4.4rem;
+    }
+
+    .button-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: unset !important;
+    }
+
+    .btn-reserve {
+        margin: 0 0 3rem 0 !important;
+        width: 50% !important;
+    }
+
+    /*ABOUT*/
+    .about {
+        padding: 0 1.5rem !important;
+        padding-bottom: 5rem !important;
+    }
+
+    .about-description span {
+        padding: 0 !important;
+    }
+
+    .jasmin {
+        display: none !important;
+    }
+
+    .china-rose {
+        top: -8% !important;
+        z-index: -1;
+        display: none !important;
+    }
+
+    .about-title {
+        text-align: center;
+    }
+
+    .about-title span {
+        font-size: 3.3rem !important;
+    }
+    .about-btn {
+        margin-top: 2rem !important;
+    }
+
+    /*BODY TREATMENT*/
+    .body-treatment {
+        margin-bottom: 5rem;
+    }
+
+    .body-treatment-show {
+        flex-direction: column;
+    }
+
+    .body-treatment-item {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    /* Post */
+    .procedures {
+        padding: 0 1.5rem !important;
+    }
+
+    .procedures-post {
+        flex-wrap: wrap;
+    }
+
+    .post-item {
+        width: 100% !important;
+        padding: 1.5rem !important;
+        margin: 0 0 3rem 0 !important;
+    }
+
+    .post-item-img {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .procedures-title {
+        width: 100% !important;
+    }
+
+    .procedures-title-text {
+        font-size: 3.1rem !important;
+    }
+
+    /*TEAM*/
+    .team {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+
+    .team-members {
+        flex-wrap: wrap;
+    }
+
+    .team-member {
+        width: 100% !important;
+        margin: 5rem 0 !important;
+    }
+
+    .team-member img {
+        width: 100% !important;
+        object-fit: cover;
+    }
+
+    .team-info {
+        width: 100% !important;
+    }
+
+    .team-title {
+        width: 100% !important;
+    }
+
+    .team-title h3 {
+        font-size: 3.3rem !important;
+    }
+
+    /*SLIDER ITEM*/
+    .slider {
+        padding: 1.5rem !important;
+    }
+
+    .slider-item {
+        padding: 0 1.5rem !important;
+    }
+
+    /*APPOINTMENT*/
+    .appointment {
+        padding: 1.5rem;
+    }
+
+    .appointment-img {
+        display: none;
+    }
+
+    .appointment-form-wrap {
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .appointment-form {
+        width: 100%;
+    }
+
+    .form-input {
+        flex-direction: column;
+    }
+
+    .form-input input {
+        width: 100% !important;
+    }
+
+    .form-input select {
+        width: 100% !important;
+    }
+
+    /*BLOG*/
+    .blog {
+        padding: 1.5rem !important;
+    }
+
+    .blog-title {
+        width: 100% !important;
+    }
+
+    .blog-title h3 {
+        font-size: 3.1rem !important;
+    }
+
+    /*CONTACT*/
+    .contact {
+        padding: 1.5rem !important;
+    }
+
+    .contact-title {
+        width: 100% !important;
+    }
+
+    .contact-input {
+        flex-direction: column;
+        padding: 0 !important;
+    }
+
+    .contact-input-text {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    /*Footer*/
+    .footer {
+        padding: 1.5rem !important;
+    }
+
+    .footer-copyright {
+        text-align: center;
+    }
+}
